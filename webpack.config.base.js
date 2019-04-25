@@ -27,6 +27,10 @@ module.exports = {
                     'css-loader',
                     'less-loader'
                 ] 
+            },
+            {
+                test: /\.js$/,
+                use: 'babel-loader'
             }
         ]
     },
